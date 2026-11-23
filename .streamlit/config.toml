@@ -1,0 +1,8 @@
+[server]
+# Streamlit's watcher inspects every imported module to detect code edits.
+# On `transformers` that triggers imports of vision models needing torchvision
+# (not used here) and floods the console with ModuleNotFoundError tracebacks.
+fileWatcherType = "none"
+
+[logger]
+level = "warning"

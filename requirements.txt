@@ -1,0 +1,9 @@
+google-genai>=1.0
+anthropic>=1.0
+pypdf>=5.0
+sentence-transformers>=3.0
+faiss-cpu>=1.8
+rank-bm25>=0.2.2
+numpy>=1.26
+streamlit>=1.38
+python-dotenv>=1.0
